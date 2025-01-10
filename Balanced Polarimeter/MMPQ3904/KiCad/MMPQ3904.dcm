@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMPQ3904
+D ON Semi MMPQ3904 Quad NPN Transistor, 200 mA, 40 V, 16-Pin SOIC
+K
+F http://www.onsemi.com/pub_link/Collateral/MMPQ3904-D.PDF
+$ENDCMP
+#
+#End Doc Library

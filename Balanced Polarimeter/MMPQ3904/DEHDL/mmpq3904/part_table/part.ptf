@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MMPQ3904'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "MMPQ3904" (!) = "", "SOIC127P600X175-16N", "Small Outline Packages", "512-MMPQ3904", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMPQ3904?qs=SSucg2PyLi5H3QPy2I7RHw%3D%3D", "ON Semi MMPQ3904 Quad NPN Transistor, 200 mA, 40 V, 16-Pin SOIC", "http://www.onsemi.com/pub_link/Collateral/MMPQ3904-D.PDF", "1.75 mm"
+END_PART
+
+END.
