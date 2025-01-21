@@ -738,6 +738,230 @@
 				)
 			)
 		)
+		(symbol "Sensor_Optical:S5971"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "S5971"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.hamamatsu.com/resources/pdf/ssd/s5971_etc_kpin1025e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Si PIN Photodiode, 0.1 GHz, TO-18-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "opto photodiode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?18*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "S5971_0_0"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "S5971_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 1.778) (xy -0.254 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.302) (xy -0.762 1.778) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 3.302) (xy 0.508 1.778) (xy 0.508 2.286) (xy 0.508 1.778) (xy 1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "S5971_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1106,6 +1330,12 @@
 		(uuid "6b819004-6045-48f5-b4fa-f47ba1df347c")
 	)
 	(junction
+		(at 91.44 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71d64b7c-0e89-46c9-a703-45eca34632e2")
+	)
+	(junction
 		(at 91.44 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1171,6 +1401,30 @@
 		(color 0 0 0 0)
 		(uuid "f800267f-18cb-4c6c-81fa-bbfa775ed2bb")
 	)
+	(no_connect
+		(at 78.74 90.17)
+		(uuid "099ad19e-65ff-4bde-9506-d74c810d7e38")
+	)
+	(no_connect
+		(at 49.53 78.74)
+		(uuid "162db085-c84d-43d6-8ff2-d57295acc8fb")
+	)
+	(no_connect
+		(at 81.28 90.17)
+		(uuid "40a2129a-b96f-4304-b253-d0f7c8e1b887")
+	)
+	(no_connect
+		(at 46.99 101.6)
+		(uuid "5dd24779-d3e0-48ff-b709-c3f3cf86ec8e")
+	)
+	(no_connect
+		(at 46.99 78.74)
+		(uuid "77ffb122-fba8-4e21-8ce7-3b765881a2d2")
+	)
+	(no_connect
+		(at 49.53 101.6)
+		(uuid "9d3c3580-5a2d-433f-bf25-f77c8e80fdd2")
+	)
 	(wire
 		(pts
 			(xy 34.29 116.84) (xy 30.48 116.84)
@@ -1190,6 +1444,16 @@
 			(type default)
 		)
 		(uuid "028c489e-3ec4-49dd-862f-072049e22d3c")
+	)
+	(wire
+		(pts
+			(xy 20.32 44.45) (xy 30.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039dc6cb-fffc-4745-87ba-6fe33e5f2da0")
 	)
 	(wire
 		(pts
@@ -1220,6 +1484,16 @@
 			(type default)
 		)
 		(uuid "05c033d3-ccb3-419a-89ab-0baf90d9f5dc")
+	)
+	(wire
+		(pts
+			(xy 20.32 40.64) (xy 20.32 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b66973-f0b5-494f-a63d-0a9dfdc8b956")
 	)
 	(wire
 		(pts
@@ -1413,16 +1687,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 44.45) (xy 30.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a5b0634-fc2d-43ea-ac7c-51e6e85908f0")
-	)
-	(wire
-		(pts
 			(xy 30.48 53.34) (xy 30.48 54.61)
 		)
 		(stroke
@@ -1430,6 +1694,16 @@
 			(type default)
 		)
 		(uuid "3b687882-ae99-4b3d-a77c-a9d1c31a6e6a")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc60a68-d889-44f8-b28e-bb88ce66e691")
 	)
 	(wire
 		(pts
@@ -1793,16 +2067,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 120.65) (xy 30.48 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8982b2c8-1e1b-4860-96c9-a4b4e773c586")
-	)
-	(wire
-		(pts
 			(xy 87.63 124.46) (xy 91.44 124.46)
 		)
 		(stroke
@@ -2093,6 +2357,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 120.65) (xy 30.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a11cfb-ef40-4e35-8e4b-810be445dc3c")
+	)
+	(wire
+		(pts
 			(xy 91.44 48.26) (xy 91.44 53.34)
 		)
 		(stroke
@@ -2143,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 116.84) (xy 20.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef523574-fd29-46df-8c9c-503f22c6828a")
+	)
+	(wire
+		(pts
 			(xy 90.17 121.92) (xy 87.63 121.92)
 		)
 		(stroke
@@ -2180,6 +2464,28 @@
 			(type default)
 		)
 		(uuid "ff3af4cc-826e-4942-b7e6-a63632e96fb3")
+	)
+	(global_label "V_out"
+		(shape input)
+		(at 95.25 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79fc06bd-7f9f-46a5-b411-e7f684c7c0ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.3151 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2311,6 +2617,72 @@
 			(project "Balanced Polarimeter"
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc0173d-8e19-4dae-ad8f-3fec2c73db9c")
+		(property "Reference" "#PWR013"
+			(at 27.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.654 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "331afbb2-3fc6-4994-a055-f8cc69eff731")
+		)
+		(instances
+			(project "Balanced Polarimeter"
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3385,6 +3757,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 20.32 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6571516-f91f-4dd4-9b02-acae193a1648")
+		(property "Reference" "#PWR015"
+			(at 16.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 24.13 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 20.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "149b6cff-3c8d-41ee-87d6-58cb17642e06")
+		)
+		(instances
+			(project "Balanced Polarimeter"
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MMPQ3904:MMPQ3904")
 		(at 34.29 38.1 0)
 		(unit 1)
@@ -3547,6 +3986,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 20.32 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b707e65f-2af3-4f1f-9557-e48c99fa944d")
+		(property "Reference" "#PWR014"
+			(at 16.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 24.13 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 20.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37b65306-eddd-4a65-afe4-5880b0611003")
+		)
+		(instances
+			(project "Balanced Polarimeter"
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 91.44 114.3 0)
 		(unit 1)
@@ -3607,6 +4113,150 @@
 			(project "Balanced Polarimeter"
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Optical:S5971")
+		(at 20.32 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7c0ad3f-ea0c-4f13-bc5a-c1c876b2b3f5")
+		(property "Reference" "D1"
+			(at 18.796 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S5971"
+			(at 18.796 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
+			(at 11.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hamamatsu.com/resources/pdf/ssd/s5971_etc_kpin1025e.pdf"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Si PIN Photodiode, 0.1 GHz, TO-18-3"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18f78f3f-3bd1-47a9-8494-2cf14d58cac9")
+		)
+		(pin "1"
+			(uuid "6667b77c-c202-4c5a-bd00-66b0dc5e5f19")
+		)
+		(pin "3"
+			(uuid "d8a5dba2-d24d-488a-bf34-c44b3eedea7f")
+		)
+		(instances
+			(project ""
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Optical:S5971")
+		(at 20.32 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7c9b85c-7799-482c-999b-d55f44d8236d")
+		(property "Reference" "D2"
+			(at 18.796 22.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S5971"
+			(at 18.796 24.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
+			(at 11.43 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hamamatsu.com/resources/pdf/ssd/s5971_etc_kpin1025e.pdf"
+			(at 20.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Si PIN Photodiode, 0.1 GHz, TO-18-3"
+			(at 20.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0272a18f-1bcf-4e95-8594-0a2009686e0e")
+		)
+		(pin "1"
+			(uuid "eca2814f-ea47-4d07-a972-4c6cb7de838a")
+		)
+		(pin "3"
+			(uuid "b011ce63-d9c6-4380-bafb-f935634ebcf4")
+		)
+		(instances
+			(project "Balanced Polarimeter"
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3690,6 +4340,72 @@
 			(project ""
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc077044-3041-4ea7-ad22-63be31e642e2")
+		(property "Reference" "#PWR012"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.654 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10a82db2-75f3-4643-99e5-2e81729d85e6")
+		)
+		(instances
+			(project "Balanced Polarimeter"
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
