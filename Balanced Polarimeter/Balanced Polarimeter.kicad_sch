@@ -214,6 +214,175 @@
 				)
 			)
 		)
+		(symbol "BNC Connector:73100-0105"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "73100-0105"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "73100-0105"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOLEX - 73100-0105 - RF/COAXIAL, BNC JACK, R/A, 50 OHM, SOLDER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-73100-0105"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/73100-0105?qs=K8BHR703ZXgAHDUsVPihfA%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "73100-0105"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "73100-0105_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1850,6 +2019,12 @@
 		(uuid "e2c50975-2c29-4ad6-9682-2c82c2998950")
 	)
 	(junction
+		(at 140.97 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5ae47b8-2194-4aa9-aba2-f9f749730ee7")
+	)
+	(junction
 		(at 90.17 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1868,6 +2043,10 @@
 		(uuid "fa586035-47e4-4930-809b-651522b4fd7a")
 	)
 	(no_connect
+		(at 172.72 91.44)
+		(uuid "0022d286-da78-4550-afc5-4bab678cd3d4")
+	)
+	(no_connect
 		(at 95.25 87.63)
 		(uuid "162db085-c84d-43d6-8ff2-d57295acc8fb")
 	)
@@ -1878,6 +2057,10 @@
 	(no_connect
 		(at 92.71 110.49)
 		(uuid "5dd24779-d3e0-48ff-b709-c3f3cf86ec8e")
+	)
+	(no_connect
+		(at 172.72 88.9)
+		(uuid "5e656931-f4e3-4540-ae0b-54c8094aaac3")
 	)
 	(no_connect
 		(at 92.71 87.63)
@@ -1940,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "044e3904-d1a5-4a77-aaf9-61634ab5ab6b")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 140.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04686bd0-073b-4630-b441-ef8b23e6f64e")
 	)
 	(wire
 		(pts
@@ -2110,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "19768230-63c3-49e3-bd92-f4a1c4468652")
+	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19df57f3-57aa-4af1-87e6-b8011804966e")
 	)
 	(wire
 		(pts
@@ -3343,7 +3546,7 @@
 	)
 	(global_label "V_out"
 		(shape input)
-		(at 140.97 91.44 0)
+		(at 140.97 87.63 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3353,7 +3556,7 @@
 		)
 		(uuid "79fc06bd-7f9f-46a5-b411-e7f684c7c0ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.0351 91.44 0)
+			(at 140.97 79.5649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,6 +4279,129 @@
 			(project "Balanced Polarimeter"
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BNC Connector:73100-0105")
+		(at 172.72 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "794f02f1-a93d-458b-979a-c5508301e043")
+		(property "Reference" "J1"
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "73100-0105"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "73100-0105"
+			(at 156.21 -3.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 -103.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOLEX - 73100-0105 - RF/COAXIAL, BNC JACK, R/A, 50 OHM, SOLDER"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 156.21 -303.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-73100-0105"
+			(at 156.21 -403.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/73100-0105?qs=K8BHR703ZXgAHDUsVPihfA%3D%3D"
+			(at 156.21 -503.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 156.21 -603.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "73100-0105"
+			(at 156.21 -703.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "09551ec4-50bd-48d7-a87d-42e8f76f3b57")
+		)
+		(pin "2"
+			(uuid "489d5e8e-5edd-4115-8d29-c2b7fb4e84df")
+		)
+		(pin "1"
+			(uuid "c7688324-3b47-4394-a667-1c6d445bc653")
+		)
+		(instances
+			(project ""
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "J1")
 					(unit 1)
 				)
 			)
