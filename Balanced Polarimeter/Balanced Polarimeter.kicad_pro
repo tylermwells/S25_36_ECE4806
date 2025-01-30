@@ -51,8 +51,21 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_over_copper|180499474|78079000|d2a3798d-329e-4851-aa7e-dc77eae5a43d|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|183036899|83927216|4ed3dff5-4927-4a7c-8491-7a55c84bfcdf|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|126791961|97203204|b2407d36-bc58-48d7-8d23-6a0f61931c26|70124c85-33e5-4d94-a35e-e2f83bbfbc1d",
+        "silk_overlap|133837738|72165523|b3acebe8-87c1-4063-b68e-59dd16a872e2|9796c787-1645-4b72-9b5f-014e973aa363",
+        "silk_overlap|140680714|71408713|e80bc9f1-deea-4c66-95c6-ca2e4bbdd46d|034068da-70e2-4f1d-8b05-4376b7320017",
+        "silk_overlap|140912142|99185142|2f3e72d6-e455-46ac-8647-d1efaa0f88e8|4006c0a5-96b9-442d-9654-a02fbb0a7339"
+      ],
       "meta": {
         "version": 2
       },
@@ -117,7 +130,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -171,7 +184,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +213,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
