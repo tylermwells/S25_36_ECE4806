@@ -1,0 +1,16 @@
+.MMPQ3904 :1 ;ON Semi MMPQ3904 Quad NPN Transistor, 200 mA, 40 V, 16-Pin SOIC
+SOIC127P600X175-16N
+*STM Q
+*NGS
+*PLB 1="COLLECTOR, DYE #1" 2="COLLECTOR, #1" 3="COLLECTOR, #2_1" 4="COLLECTOR, #2_2" 5="COLLECTOR, #3_1" 6="COLLECTOR, #3_2" 7="COLLECTOR, #4_1" 8="COLLECTOR, #4_2" 9="BASE, #4" 10="EMITTER, #4" 11="BASE, #3" 12="EMITTER, #3" 13="BASE, #2" 14="EMITTER, #2" 15="BASE, #1" 16="EMITTER, #1"
+*MXP 16
+*DFN MMPQ3904
+~!Mouser Part Number (512-MMPQ3904)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MMPQ3904?qs=SSucg2PyLi5H3QPy2I7RHw%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (MMPQ3904)
+~!Link Datasheet (http://www.onsemi.com/pub_link/Collateral/MMPQ3904-D.PDF)
+~!Height (1.75mm)
+~!3D_Model (MMPQ3904)
+MMPQ3904
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

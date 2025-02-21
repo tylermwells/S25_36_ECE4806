@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MMPQ3904
+PartCategory=Transistor BJT NPN
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2019-04-24 12:27:32
+Downloaded=2025-01-10 19:50:22
+3D=Y
