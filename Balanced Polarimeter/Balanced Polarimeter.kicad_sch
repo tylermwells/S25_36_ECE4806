@@ -2468,6 +2468,12 @@
 		(uuid "9c292944-36a3-44db-9eec-0dadddda1d9d")
 	)
 	(junction
+		(at 172.72 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c5a91ee-3b61-4080-9b54-905c6a614c1f")
+	)
+	(junction
 		(at 85.09 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2570,6 +2576,12 @@
 		(uuid "f0de818f-d087-466d-8010-9e47abc19059")
 	)
 	(junction
+		(at 148.59 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5a19e9d-6295-45d4-bd8e-9307c56f9fa2")
+	)
+	(junction
 		(at 76.2 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2582,10 +2594,6 @@
 		(uuid "fa586035-47e4-4930-809b-651522b4fd7a")
 	)
 	(no_connect
-		(at 172.72 91.44)
-		(uuid "0022d286-da78-4550-afc5-4bab678cd3d4")
-	)
-	(no_connect
 		(at 95.25 87.63)
 		(uuid "162db085-c84d-43d6-8ff2-d57295acc8fb")
 	)
@@ -2596,10 +2604,6 @@
 	(no_connect
 		(at 92.71 110.49)
 		(uuid "5dd24779-d3e0-48ff-b709-c3f3cf86ec8e")
-	)
-	(no_connect
-		(at 172.72 88.9)
-		(uuid "5e656931-f4e3-4540-ae0b-54c8094aaac3")
 	)
 	(no_connect
 		(at 92.71 87.63)
@@ -3015,7 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 27.94) (xy 148.59 135.89)
+			(xy 148.59 27.94) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3815,6 +3819,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 88.9) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e69657-575d-474f-8e09-fd79a9489b98")
+	)
+	(wire
+		(pts
 			(xy 113.03 38.1) (xy 113.03 43.18)
 		)
 		(stroke
@@ -4185,6 +4199,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 95.25) (xy 148.59 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2b91b8-fa5b-4773-aa79-f767c801a33f")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaafecfa-6247-469a-9ab8-6ab55e55fb0c")
+	)
+	(wire
+		(pts
 			(xy 116.84 82.55) (xy 116.84 88.9)
 		)
 		(stroke
@@ -4232,6 +4266,16 @@
 			(type default)
 		)
 		(uuid "f26c8c3f-6e4c-4e34-bc19-4b6a98d78eb8")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f299f65a-1325-4012-9d08-790ae8cbbce6")
 	)
 	(wire
 		(pts
