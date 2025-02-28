@@ -15,17 +15,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
+      "otherItems": true,
+      "pads": true,
       "text": true,
       "tracks": true,
-      "vias": false,
-      "zones": false
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       0,
@@ -38,7 +38,6 @@
       9,
       10,
       11,
-      12,
       13,
       15,
       16,
@@ -64,7 +63,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffef_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Balanced Polarimeter.kicad_prl",
+    "filename": "Power_Supply_Board.kicad_prl",
     "version": 3
   },
   "project": {
