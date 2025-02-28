@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.8"
     },
-    "CreationDate": "2025-02-27T22:51:06-05:00"
+    "CreationDate": "2025-02-27T22:52:23-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Balanced Polarimeter",
-      "GUID": "42616c61-6e63-4656-9420-506f6c617269",
+      "Name": "CurrentDriverBoard",
+      "GUID": "43757272-656e-4744-9472-69766572426f",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 65.05,
-      "Y": 46.55
+      "X": 33.55,
+      "Y": 32.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Balanced Polarimeter-F_Cu.gbr",
+      "Path": "CurrentDriverBoard-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Balanced Polarimeter-B_Cu.gbr",
+      "Path": "CurrentDriverBoard-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Balanced Polarimeter-F_Paste.gbr",
+      "Path": "CurrentDriverBoard-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Balanced Polarimeter-B_Paste.gbr",
+      "Path": "CurrentDriverBoard-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Balanced Polarimeter-F_Silkscreen.gbr",
+      "Path": "CurrentDriverBoard-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Balanced Polarimeter-B_Silkscreen.gbr",
+      "Path": "CurrentDriverBoard-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Balanced Polarimeter-F_Mask.gbr",
+      "Path": "CurrentDriverBoard-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Balanced Polarimeter-B_Mask.gbr",
+      "Path": "CurrentDriverBoard-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Balanced Polarimeter-Edge_Cuts.gbr",
+      "Path": "CurrentDriverBoard-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
