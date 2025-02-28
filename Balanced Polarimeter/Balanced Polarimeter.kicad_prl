@@ -15,6 +15,7 @@
       "zones": 0.6
     },
     "selection_filter": {
+<<<<<<< HEAD
       "dimensions": false,
       "footprints": true,
       "graphics": false,
@@ -22,10 +23,19 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
+=======
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": false,
+      "otherItems": true,
+      "pads": true,
+>>>>>>> 9621b15a830f1e94473faf4bf9fb7aeb1c9a4ca1
       "text": true,
       "tracks": true,
-      "vias": false,
-      "zones": false
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       0,
