@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.8*%
-%TF.CreationDate,2025-02-27T22:51:06-05:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.0-1.fc41*%
+%TF.CreationDate,2025-03-24T11:14:24-04:00*%
 %TF.ProjectId,Balanced Polarimeter,42616c61-6e63-4656-9420-506f6c617269,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.8) date 2025-02-27 22:51:06*
+G04 Created by KiCad (PCBNEW 9.0.0-1.fc41) date 2025-03-24 11:14:24*
 %MOMM*%
 %LPD*%
 G01*
