@@ -201,7 +201,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/5a64e492-b795-44d2-8856-00ffb42d970f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1557,7 +1557,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e1e634f5-ff2d-4e7f-83f3-1ae3bf80ab15")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1568,7 +1568,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e43cdcaf-f20a-4d33-b552-0ed7d2f13fc7")
+			(uuid "d3a60694-8307-4e16-9983-75e18fa485e6")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -1578,7 +1578,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aa5ab795-8f96-4abf-b8c2-fe2fd63d4192")
+			(uuid "fa77fe90-58ac-4420-912d-4f70bd1bada1")
 		)
 		(fp_line
 			(start 9.12 0)
@@ -1588,7 +1588,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bcd29b6a-8776-4610-9541-cbdbf4f12f27")
+			(uuid "8ca83cc9-b176-48de-8db3-c4bcd66d40d1")
 		)
 		(fp_line
 			(start 1.04 0)
@@ -1598,7 +1598,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "22b25f54-ac4f-4a5a-93bb-f6debc1151aa")
+			(uuid "bd8d2106-4b50-4e92-80ed-fb0b373fcf37")
 		)
 		(fp_line
 			(start 8.35 1.37)
@@ -1608,7 +1608,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "05c65c75-18c9-49d7-a28c-45623e7552c4")
+			(uuid "371049c9-6124-43ff-bc2a-3dc5723b130d")
 		)
 		(fp_line
 			(start 1.81 1.37)
@@ -1618,7 +1618,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "257b0875-1a8e-4185-bf04-ce40449e605d")
+			(uuid "fbd13316-ade7-4349-8cbe-0a0fb99f4773")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -1628,7 +1628,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "da15fd7b-d29f-400f-ad99-5647519bcbc3")
+			(uuid "a7746c65-79a4-44b2-9d9d-a14d445dc579")
 		)
 		(fp_line
 			(start -1.05 -1.5)
@@ -1638,7 +1638,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "15a7c938-d1fb-407e-bebd-4c896f48265e")
+			(uuid "1c9c7298-550a-45fd-af35-80c2709623d3")
 		)
 		(fp_line
 			(start 11.21 1.5)
@@ -1648,7 +1648,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "93d358a7-eedb-47db-b5a9-7a850c8c3180")
+			(uuid "5640aa14-5fe4-47fe-a63e-c19f7bac01aa")
 		)
 		(fp_line
 			(start -1.05 1.5)
@@ -1658,7 +1658,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b7bb58a7-866e-4d0f-913d-8498bad089b8")
+			(uuid "804cd920-04e7-4adc-b6eb-8e254dde21f5")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -1668,7 +1668,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a4f74aa2-f774-4b13-a40f-a8f8afe27e57")
+			(uuid "383fcdc3-2c75-4752-a012-4e5df3e2fbff")
 		)
 		(fp_line
 			(start 1.93 -1.25)
@@ -1678,7 +1678,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d2eb3236-ed5f-416c-aa82-dc62ab807d4a")
+			(uuid "560824cd-a9d4-4a5c-9c2e-c128b2d492a8")
 		)
 		(fp_line
 			(start 10.16 0)
@@ -1688,7 +1688,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "618d8b27-77a1-465a-af1c-fa4f1f1d00c1")
+			(uuid "d608340a-7a9e-443b-8aba-9193001b5e52")
 		)
 		(fp_line
 			(start 0 0)
@@ -1698,7 +1698,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "63236b19-1cdf-43ce-b585-02ebfd4568a1")
+			(uuid "0b557b14-5912-460d-a0aa-cfda279b42af")
 		)
 		(fp_line
 			(start 8.23 1.25)
@@ -1708,7 +1708,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "531dd391-7640-4fb6-893d-a0312f85b108")
+			(uuid "3544362a-3fe2-4957-8e34-3dfd36a695b0")
 		)
 		(fp_line
 			(start 1.93 1.25)
@@ -1718,7 +1718,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b868f876-f544-4563-8e82-4d7d6ee171eb")
+			(uuid "561c44f5-5ea0-4149-a626-e2c8059b899e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.08 0 90)
@@ -1752,7 +1752,7 @@
 			(uuid "52917ac9-5f2c-44fa-80ae-67af2afd4df8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1820,7 +1820,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f13c5376-197a-4adf-b682-836240ee5e9a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1831,7 +1831,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "94a516c4-fb8a-4ca9-b48e-7204962c4ae2")
+			(uuid "0cc2ae0d-afb6-425b-b712-c6a2d1810e62")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -1841,7 +1841,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "34bff7f0-e49d-4f2d-a720-b646384a792f")
+			(uuid "530caf06-4338-4ea7-aa06-32669d37c148")
 		)
 		(fp_line
 			(start 9.12 0)
@@ -1851,7 +1851,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c4b1c41b-e660-4a71-b7e5-429a62d359cf")
+			(uuid "cf4965b0-1252-443c-ad94-16036a2c018a")
 		)
 		(fp_line
 			(start 1.04 0)
@@ -1861,7 +1861,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0dcf52c0-41d5-4940-aea7-8f9cd4b86c34")
+			(uuid "dc03a01d-6285-4722-b43b-ce9762007c95")
 		)
 		(fp_line
 			(start 8.35 1.37)
@@ -1871,7 +1871,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e53ec1e-0656-447b-a8a6-1c9401226e3d")
+			(uuid "9e5f35de-7769-4ff7-bf27-4955c71e3ce1")
 		)
 		(fp_line
 			(start 1.81 1.37)
@@ -1881,7 +1881,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e38cd1b1-a8ec-44a9-9627-60026df91689")
+			(uuid "f294569f-acff-4d85-b127-c3d9c3e70ef9")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -1891,7 +1891,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e32f1e40-7aa6-4b6a-9d0e-39e557bd8412")
+			(uuid "c645ccf0-14cc-4893-a819-990f0ed3420f")
 		)
 		(fp_line
 			(start -1.05 -1.5)
@@ -1901,7 +1901,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bd20e242-8ca4-4c2c-a5d6-d3d7463cc65d")
+			(uuid "0d9e194c-d37a-47bf-b475-989d89171e7f")
 		)
 		(fp_line
 			(start 11.21 1.5)
@@ -1911,7 +1911,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c6fed21f-a030-469f-9048-1885f3380dd6")
+			(uuid "3d04b728-e655-48a1-a4db-a2662af8f02b")
 		)
 		(fp_line
 			(start -1.05 1.5)
@@ -1921,7 +1921,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "88168d02-78a6-4181-b8c9-023f47d8469b")
+			(uuid "16acb1e5-578d-4973-aedc-60603dea573d")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -1931,7 +1931,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3581b1af-79fc-496c-acdb-3ea2adcf58d6")
+			(uuid "80cc1487-001a-410c-acc3-7ec031d908a6")
 		)
 		(fp_line
 			(start 1.93 -1.25)
@@ -1941,7 +1941,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "db913bbd-5f99-4d2e-a230-9abb4207387e")
+			(uuid "569f6a4a-29b1-48ae-9e8e-73f7f75c9d23")
 		)
 		(fp_line
 			(start 10.16 0)
@@ -1951,7 +1951,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d0903b4d-8920-4863-900e-52c637cd7d80")
+			(uuid "30672875-a7e3-4913-8b41-c63ca955e0f6")
 		)
 		(fp_line
 			(start 0 0)
@@ -1961,7 +1961,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c128962a-aa48-4f4c-b8ea-24ed14732d24")
+			(uuid "171186e8-792b-47b3-9073-0ef85e24214f")
 		)
 		(fp_line
 			(start 8.23 1.25)
@@ -1971,7 +1971,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cfc377f8-a7a4-4446-a79f-1a5cc0ec3d37")
+			(uuid "e641e855-1c85-4a23-91d5-109d3afb7acd")
 		)
 		(fp_line
 			(start 1.93 1.25)
@@ -1981,7 +1981,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ecd14588-678e-46b1-bb51-5cd818d88920")
+			(uuid "2215c8ff-c0d9-479a-80d9-9bf4a4e95746")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.08 0 90)
@@ -2015,7 +2015,7 @@
 			(uuid "819c58ac-26a8-495a-9f94-eb53b96abf95")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2083,7 +2083,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/4f16d2b7-16b0-49fd-b2aa-d5f672ca5a04")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2094,7 +2094,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "71b83a7b-d4d8-4577-bee5-6ac718f2df6d")
+			(uuid "26a52804-487c-43f8-a9a9-2d47702a1442")
 		)
 		(fp_line
 			(start 8.35 1.37)
@@ -2104,7 +2104,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "56b622d7-c22c-4a22-9334-7bee1ede1aae")
+			(uuid "64a86d3b-9057-438a-a445-e662bb1d90b2")
 		)
 		(fp_line
 			(start 1.04 0)
@@ -2114,7 +2114,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "98aa3319-b56c-4ad5-a7de-e5952d64a772")
+			(uuid "79abc764-2aa3-401c-a503-44e08651ebfd")
 		)
 		(fp_line
 			(start 9.12 0)
@@ -2124,7 +2124,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bfc593c2-ab1a-4b4b-9ef8-4d1764942c79")
+			(uuid "a85f03a0-81b3-4011-857e-42d9ae725bb8")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -2134,7 +2134,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "563225ec-b700-43e6-869f-030bcba0d900")
+			(uuid "5cef00e3-cfee-4628-8e77-baf033f5f716")
 		)
 		(fp_line
 			(start 8.35 -1.37)
@@ -2144,7 +2144,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1ce86195-4591-458a-b3f5-feb7c71e93b3")
+			(uuid "3003558f-cac7-479f-806a-2b9bb1b69daf")
 		)
 		(fp_line
 			(start -1.05 1.5)
@@ -2154,7 +2154,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f727763d-e34f-45b1-abad-61597ad3bba1")
+			(uuid "999e8b36-f728-415d-87c4-662fb3db3dbd")
 		)
 		(fp_line
 			(start 11.21 1.5)
@@ -2164,7 +2164,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fafeef6d-1fa4-4073-af8d-64a8dfceebf4")
+			(uuid "2f72622f-5dab-421e-9faf-45459f5d4124")
 		)
 		(fp_line
 			(start -1.05 -1.5)
@@ -2174,7 +2174,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e6a4d731-0b82-4b3c-ad48-4e5f1c89cf4e")
+			(uuid "58645e29-c17e-432c-81e9-e8dd38507862")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -2184,7 +2184,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "28dc14dc-a490-4ea2-bd8d-27cb6cb5f0ad")
+			(uuid "0a049efa-d067-441e-b140-21cd3dbefdbc")
 		)
 		(fp_line
 			(start 1.93 1.25)
@@ -2194,7 +2194,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d8ad0d31-c4ae-4b53-b461-93d5337a3db6")
+			(uuid "858526a0-d8e3-4ca2-bebf-bb2c8f4d5f4f")
 		)
 		(fp_line
 			(start 8.23 1.25)
@@ -2204,7 +2204,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bc77b90c-f046-4c07-b8d9-46a8e92cec79")
+			(uuid "25fa9561-ce0c-4c6d-ab43-5e962dcf4ff9")
 		)
 		(fp_line
 			(start 0 0)
@@ -2214,7 +2214,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7445cb50-c025-48bb-bfc6-0dfcf6e3f2f5")
+			(uuid "fa17e2d6-1b26-4565-b395-077faf4264f3")
 		)
 		(fp_line
 			(start 10.16 0)
@@ -2224,7 +2224,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "05b9c542-2474-4962-95eb-869fd8efa122")
+			(uuid "b5e9f40e-afe6-4c97-af79-b4613e20330b")
 		)
 		(fp_line
 			(start 1.93 -1.25)
@@ -2234,7 +2234,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f8b80e15-7d61-4828-a752-1186338f70eb")
+			(uuid "c96b4305-2039-458b-b7b4-be58223ed5a3")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -2244,7 +2244,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b7e7d1b0-cf12-4b33-8d52-1b0e243dcb2c")
+			(uuid "43c6792a-2d13-44c7-a1df-2e7e17db1ca2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.08 0 270)
@@ -2278,7 +2278,7 @@
 			(uuid "abfe4b11-c1a3-4f22-b8c1-61cbd4407daf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2345,7 +2345,7 @@
 		)
 		(property ki_fp_filters "SOIC*1EP*3.9x4.9mm*P1.27mm*")
 		(path "/d4cd2baa-a34f-4b0d-ab5a-de91085e564c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2682,7 +2682,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/fb971c62-cbc5-4bab-8f02-922f04144b6c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2693,7 +2693,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "30a7400b-c3c5-40c3-8971-c70d206676bf")
+			(uuid "637f74fb-0187-4ae6-942e-1cf32a5fb5e9")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -2703,7 +2703,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "12fa8d17-b121-4003-96d6-29b3f4128c98")
+			(uuid "f6393427-4bd7-483b-8c3d-fd1fea2bba90")
 		)
 		(fp_line
 			(start 9.12 0)
@@ -2713,7 +2713,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7225e88f-eaf1-434c-8f29-1429da249d5d")
+			(uuid "d33a36d7-a47c-4778-a33b-05a65124d11b")
 		)
 		(fp_line
 			(start 1.04 0)
@@ -2723,7 +2723,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ea0ec3d7-624b-4caf-b5f9-1d33ff148172")
+			(uuid "ed3712ac-f678-41cb-90d1-f03c843ceefd")
 		)
 		(fp_line
 			(start 8.35 1.37)
@@ -2733,7 +2733,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5f3e211c-9df2-4c7e-a328-15721d5f2331")
+			(uuid "62c75511-25d7-4302-b7ef-0a381d382552")
 		)
 		(fp_line
 			(start 1.81 1.37)
@@ -2743,7 +2743,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d3e969ad-23c7-488b-b1ae-13ebfba02af3")
+			(uuid "05c23ffe-15e4-429d-82ef-d335932f6cce")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -2753,7 +2753,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ecd7f429-4f47-477d-af60-cec53bfa36e8")
+			(uuid "513e7ed6-0a25-4fa8-93cd-298cc065e621")
 		)
 		(fp_line
 			(start -1.05 -1.5)
@@ -2763,7 +2763,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "44b4c4a3-b9e0-4d59-9dad-aecc440b669a")
+			(uuid "95bf064b-46ea-4759-9ea5-1071ce75b25b")
 		)
 		(fp_line
 			(start 11.21 1.5)
@@ -2773,7 +2773,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "70d6316e-3046-4f63-bc3e-4b8649847e97")
+			(uuid "daceb39c-4550-4e1d-9f87-cbd3977bb041")
 		)
 		(fp_line
 			(start -1.05 1.5)
@@ -2783,7 +2783,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c2985082-b216-4c8f-b1b1-8acae9b9c2e9")
+			(uuid "ca7acd32-5072-4941-b8f3-5080a8e95f04")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -2793,7 +2793,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5b3f0801-84d1-422e-8370-b663f48dddd2")
+			(uuid "823f1bdc-9919-49cf-9ad2-adbd06212883")
 		)
 		(fp_line
 			(start 1.93 -1.25)
@@ -2803,7 +2803,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "37068005-c565-46d4-b9c4-392416365e15")
+			(uuid "9bc7eaf1-8112-4684-a529-c5d0eb7ba487")
 		)
 		(fp_line
 			(start 10.16 0)
@@ -2813,7 +2813,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d6fa8ed6-1c15-4f33-a6cd-adceb92064f4")
+			(uuid "ddfad929-f63a-402c-bed5-19eb2f56d045")
 		)
 		(fp_line
 			(start 0 0)
@@ -2823,7 +2823,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b18345e5-edd9-4bde-9ba6-7f6eccda79b6")
+			(uuid "5cb171eb-cfcd-44da-9691-a8ebb1a23d91")
 		)
 		(fp_line
 			(start 8.23 1.25)
@@ -2833,7 +2833,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5e9b9409-2f4d-4bd8-a269-394fe496c05a")
+			(uuid "245099e4-366f-4987-9817-a831a79ca0a7")
 		)
 		(fp_line
 			(start 1.93 1.25)
@@ -2843,7 +2843,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0b47c514-6a14-4cd3-bfa2-d2522c03f018")
+			(uuid "cd2579a4-90ec-4cf9-b329-b8d8bce3fffc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.08 0 90)
@@ -2877,7 +2877,7 @@
 			(uuid "2c2b300b-8739-4aa7-8afe-ae0d6c700c8b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2945,7 +2945,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6948903d-966c-4f32-941a-296ac8ecc677")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2956,7 +2956,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "47380068-c146-477e-8c45-cffe0459d15d")
+			(uuid "ff524114-5a3f-4036-a19f-8d5bdb0c4888")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -2966,7 +2966,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b0d3428c-c160-435e-ae65-2a3ed6f7985e")
+			(uuid "effbb84d-745a-4d17-b431-c24065c7a3ad")
 		)
 		(fp_line
 			(start 1.81 1.37)
@@ -2976,7 +2976,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0be1ebb9-61ef-4ef7-ba03-b29d46757075")
+			(uuid "0eb1a6d4-88f5-4515-b41b-7a5eb0dd0ac7")
 		)
 		(fp_line
 			(start 8.35 -1.37)
@@ -2986,7 +2986,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bf72163d-f08b-45a7-a95b-19e3a767a72d")
+			(uuid "85091d58-0874-4f38-939c-bb29f23363e0")
 		)
 		(fp_line
 			(start 8.35 1.37)
@@ -2996,7 +2996,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b369c36-efa0-44d1-93aa-23e5ca334619")
+			(uuid "84172d2a-c605-4231-a83a-435932794789")
 		)
 		(fp_line
 			(start 9.12 0)
@@ -3006,7 +3006,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "434807d1-aa72-42e4-9978-381f9267bca9")
+			(uuid "a1dee4a7-b428-4656-802b-8701200bcc4a")
 		)
 		(fp_line
 			(start -1.05 -1.5)
@@ -3016,7 +3016,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4a6691ea-8c59-498c-9ab9-a16426eaa4e9")
+			(uuid "9c281444-335d-4d8d-bb3d-95bca7cb1440")
 		)
 		(fp_line
 			(start -1.05 1.5)
@@ -3026,7 +3026,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a498cbc5-96f2-4018-b60f-78f689019b9f")
+			(uuid "751e0f4d-3c26-463b-be50-a80f220f4917")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -3036,7 +3036,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "493175b3-a0eb-47b8-91f9-fc2d68318bb0")
+			(uuid "57b933fc-691b-4174-9902-25cd066bcc64")
 		)
 		(fp_line
 			(start 11.21 1.5)
@@ -3046,7 +3046,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8742f99a-ca56-4a53-a479-503edf2230e7")
+			(uuid "8e214bf3-f1e5-4bef-a2f5-6dc0c7ff7ed7")
 		)
 		(fp_line
 			(start 0 0)
@@ -3056,7 +3056,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "54cd2253-da31-4c46-84ea-fa20c5dde7bf")
+			(uuid "ef74e928-6095-4df2-b4e0-90b0afcbc334")
 		)
 		(fp_line
 			(start 1.93 -1.25)
@@ -3066,7 +3066,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "288c738b-cd5d-4778-af7e-54a2c6b511da")
+			(uuid "815963f9-3ac9-438e-86dd-9ac272085a58")
 		)
 		(fp_line
 			(start 1.93 1.25)
@@ -3076,7 +3076,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "83c93e6b-3d91-438e-a5e0-0a2faa58f716")
+			(uuid "9b4f7701-5daf-4373-b614-89bdde57dc3c")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -3086,7 +3086,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "924ab8de-4f86-42c4-9b92-247a6f49527b")
+			(uuid "57da5888-312b-4792-8637-cf57a327d8e3")
 		)
 		(fp_line
 			(start 8.23 1.25)
@@ -3096,7 +3096,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b17c4e8b-a39e-4c0d-a97d-dc1e7fcb719c")
+			(uuid "b640c6db-d0e2-4b31-a75e-5c26456fa1df")
 		)
 		(fp_line
 			(start 10.16 0)
@@ -3106,7 +3106,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1c238675-dd51-47bd-8105-6f3d8454218d")
+			(uuid "7e0c2d62-f858-4740-8985-0006844d97b5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.08 0 0)
@@ -3140,7 +3140,7 @@
 			(uuid "aaf88fd0-f7da-4aac-9248-a75a22f8a88a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3210,7 +3210,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3c894737-305b-4770-b5cc-52dd16fb42bd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3722,7 +3722,7 @@
 		)
 		(property ki_fp_filters "TO?18*")
 		(path "/c7c0ad3f-ea0c-4f13-bc5a-c1c876b2b3f5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3973,7 +3973,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/d74dee91-5e28-4343-b0f0-b2590563c150")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -4137,7 +4137,7 @@
 			)
 		)
 		(path "/b0af2f16-c4fb-4e16-914a-484956939fcd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4506,7 +4506,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/bccac85f-a7b7-45f8-bc63-32712c097b7f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -4670,7 +4670,7 @@
 			)
 		)
 		(path "/2be1c392-6084-48b5-be13-d5898f781a76")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5039,7 +5039,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/010a0669-595d-4326-abf7-8523230388a5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -5142,7 +5142,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/1f19ef56-7f54-49a5-9a1c-571c63beee2f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -5343,7 +5343,7 @@
 			)
 		)
 		(path "/c5d51b5d-8017-4604-b138-6642b1ba0512")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5549,7 +5549,7 @@
 		)
 		(property ki_fp_filters "TO?18*")
 		(path "/c7c9b85c-7799-482c-999b-d55f44d8236d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5798,7 +5798,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ebb9c69f-865a-4c29-bca3-e9430f0b2e51")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5809,7 +5809,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5779786f-065a-4b3c-a82c-c07a044cf1cc")
+			(uuid "2605f1ec-a27d-48b6-aab0-9ba9cbdd85f5")
 		)
 		(fp_line
 			(start 8.35 1.37)
@@ -5819,7 +5819,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "af1b6ed9-cfbf-4dcf-a12e-f8bf05fffd75")
+			(uuid "3a62a297-02a4-46c3-946b-c9cae70a3c15")
 		)
 		(fp_line
 			(start 8.35 -1.37)
@@ -5829,7 +5829,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "daf7545b-9c40-4d4c-9dc5-7981aa8285f3")
+			(uuid "b1469bb2-97e1-402a-936d-e226a9993ec4")
 		)
 		(fp_line
 			(start 1.81 1.37)
@@ -5839,7 +5839,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "79332eac-57fc-4f09-9407-432d4eef0563")
+			(uuid "e02d94e0-e31b-4959-b73e-29daeda02ac5")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -5849,7 +5849,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6f30b437-c07d-4827-bc0b-7c785727dfbc")
+			(uuid "67d8436c-b402-4d4a-b1f9-b5568c6a3e1e")
 		)
 		(fp_line
 			(start 1.04 0)
@@ -5859,7 +5859,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a5dffa78-78e0-4387-bc60-381781e1ecb1")
+			(uuid "e7041c24-4efc-4f0c-abc6-964f4b7ac43f")
 		)
 		(fp_line
 			(start 11.21 1.5)
@@ -5869,7 +5869,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fb501300-0199-4b0e-a498-f3f9f9854e17")
+			(uuid "cd12c495-ae25-4b23-aae0-af46c6cec5c1")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -5879,7 +5879,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "560b78aa-b8ce-4c0a-897d-be2b5f5922a0")
+			(uuid "ac6efca3-ff65-4b05-8efb-461b29ffd2e4")
 		)
 		(fp_line
 			(start -1.05 1.5)
@@ -5889,7 +5889,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9026012e-939b-4547-be5b-f58c0fd1405a")
+			(uuid "3c56365d-649e-44b6-8ff2-5c6b9ccee52a")
 		)
 		(fp_line
 			(start -1.05 -1.5)
@@ -5899,7 +5899,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "71f2249e-a8de-49ae-8f46-acfef006f2c0")
+			(uuid "58869178-f0ef-4a95-9587-d8e16946ca8d")
 		)
 		(fp_line
 			(start 10.16 0)
@@ -5909,7 +5909,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2719ffec-e635-4631-9ff1-2101cc023779")
+			(uuid "bf0a64c5-6356-442b-bf90-f4bf9fd87f7a")
 		)
 		(fp_line
 			(start 8.23 1.25)
@@ -5919,7 +5919,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c195ebbf-3b8e-4f71-87da-8399aab3c583")
+			(uuid "cae1499a-94a5-4e97-a313-915b18c14b9c")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -5929,7 +5929,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "78990cb5-be5c-42af-82b4-424b4bc37cbf")
+			(uuid "e7098202-ae28-49e2-bb45-443158c1feaf")
 		)
 		(fp_line
 			(start 1.93 1.25)
@@ -5939,7 +5939,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b1ba5352-e985-4cd3-ada0-50988b311320")
+			(uuid "4d405e13-1b00-44e4-b00f-c0be11c124c9")
 		)
 		(fp_line
 			(start 1.93 -1.25)
@@ -5949,7 +5949,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "99fd7c7d-12e7-4dc1-a59f-b15a746451c7")
+			(uuid "aab6cf0e-42c8-4e40-8680-5c71b07395a6")
 		)
 		(fp_line
 			(start 0 0)
@@ -5959,7 +5959,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a8688be5-62e7-4428-a8ea-458bcc92063f")
+			(uuid "ecf73f13-e7c6-4ca9-9db0-350d7ac4185b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.08 0 180)
@@ -5993,7 +5993,7 @@
 			(uuid "499ea9ec-ae45-467d-a182-f9f4fca56687")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6061,7 +6061,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6837d374-a77b-4012-86d7-4a32c45b4ba2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6072,7 +6072,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d640cb00-28dc-4b6e-96a5-c205f2a3754c")
+			(uuid "270cd118-e800-43c1-8282-d2c0e101441b")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -6082,7 +6082,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6614f5b5-fd48-458c-a311-eea86ab7148d")
+			(uuid "89deb8cc-cf13-4d42-add0-1f1a1f2a6969")
 		)
 		(fp_line
 			(start 1.81 1.37)
@@ -6092,7 +6092,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c490880c-ff37-4bb2-ab37-a72b0bf891b3")
+			(uuid "1b2c74c6-cc14-488a-8275-2a284040d393")
 		)
 		(fp_line
 			(start 8.35 -1.37)
@@ -6102,7 +6102,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2d4b67f6-beef-43b7-83b2-b238e66e51de")
+			(uuid "abd8124e-c3e4-48ad-8973-9eb305d02dec")
 		)
 		(fp_line
 			(start 8.35 1.37)
@@ -6112,7 +6112,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c4ed696a-c9bb-4169-b81f-434df64f1ed2")
+			(uuid "5f3d95ea-3417-41a8-a25d-827e956ebca1")
 		)
 		(fp_line
 			(start 9.12 0)
@@ -6122,7 +6122,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "275e2e35-f37a-437e-a773-4b3f145ba827")
+			(uuid "e7c3a806-d816-45c4-88ce-069ffe719707")
 		)
 		(fp_line
 			(start -1.05 -1.5)
@@ -6132,7 +6132,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "13d2cb12-c3b4-4ded-8b11-81bdad57c583")
+			(uuid "d244ee88-dec6-49ca-a369-e5a5204b6d16")
 		)
 		(fp_line
 			(start -1.05 1.5)
@@ -6142,7 +6142,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "17057691-a05f-4019-a212-f536f340aaaf")
+			(uuid "3edcc495-a31a-47ce-b189-4d6a05f39974")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -6152,7 +6152,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0468607a-371b-4354-9b84-70ed7f0c49b9")
+			(uuid "8167044b-67f1-46b0-ac32-d99da0670d71")
 		)
 		(fp_line
 			(start 11.21 1.5)
@@ -6162,7 +6162,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "46b66885-3d4a-46ba-afb1-712c60a63c2c")
+			(uuid "107bec66-ca96-4200-9bab-818feb92f66c")
 		)
 		(fp_line
 			(start 0 0)
@@ -6172,7 +6172,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "af9b8c57-0cae-4a93-ab91-d673de85861b")
+			(uuid "b120547e-86a8-4ebb-b70f-47936f240d3d")
 		)
 		(fp_line
 			(start 1.93 -1.25)
@@ -6182,7 +6182,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "20ee6054-ee03-4d74-9947-d1b56a4848af")
+			(uuid "13b40179-cbcf-4b0c-8098-4a0ebd963b70")
 		)
 		(fp_line
 			(start 1.93 1.25)
@@ -6192,7 +6192,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e49cc7f3-e4fa-40eb-8241-f9881aa1359b")
+			(uuid "7e760d70-c026-4d71-a73a-d5ab30401aec")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -6202,7 +6202,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2202d84a-fc9d-4a60-b1f6-57a4e1163f32")
+			(uuid "f5e0abfb-f57c-40a9-ac66-da34a6f3acb3")
 		)
 		(fp_line
 			(start 8.23 1.25)
@@ -6212,7 +6212,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d27f4fce-9b9d-46fc-9465-52af4af6c2ad")
+			(uuid "a3a74739-38c5-4426-9ab1-1560c59b5cf6")
 		)
 		(fp_line
 			(start 10.16 0)
@@ -6222,7 +6222,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1cef1833-520a-4887-b8a5-b0bf9e9b8a0f")
+			(uuid "2bc0069f-b70e-4e63-8ea6-293f167de6a4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.08 0 0)
@@ -6256,7 +6256,7 @@
 			(uuid "d4b8e40c-724d-4388-af1b-23a468381d9e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6326,7 +6326,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9a421e27-bc3f-4709-a8e5-256281b20a4b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6581,7 +6581,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/38277b42-a350-421a-8a36-95a0b241cf1d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7936,7 +7936,7 @@
 		)
 		(property ki_fp_filters "SOIC*1EP*3.9x4.9mm*P1.27mm*")
 		(path "/7573a19b-6e43-4bea-9f05-fdf53f4a343d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8275,7 +8275,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6d39e63e-8246-4cc5-b3e4-f97daf31112c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8461,7 +8461,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/035c4c39-4a8d-4c22-aa5f-198095e18475")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "Balanced Polarimeter.kicad_sch")
 		(attr through_hole)
 		(fp_line
