@@ -752,6 +752,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -3058,16 +3197,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 101.6) (xy 55.88 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f12eb64-4a02-4519-8aee-6d0b2f6adcde")
-	)
-	(wire
-		(pts
 			(xy 71.12 124.46) (xy 71.12 119.38)
 		)
 		(stroke
@@ -3455,6 +3584,16 @@
 			(type default)
 		)
 		(uuid "46ea52ef-14a6-4206-b46b-73113fa20315")
+	)
+	(wire
+		(pts
+			(xy 43.18 101.6) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4708e9d1-2d16-42dc-b0a0-04470c1a09ab")
 	)
 	(wire
 		(pts
@@ -4418,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.22) (xy 76.2 109.22)
+			(xy 43.18 109.22) (xy 76.2 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5292,34 +5431,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 49.53 105.41 180)
+		(lib_id "Device:C")
+		(at 80.01 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "24705170-fd13-46b8-aa06-57c7956a4579")
-		(property "Reference" "C8"
-			(at 40.386 108.458 0)
+		(fields_autoplaced yes)
+		(uuid "243b8361-5c43-4b1d-969a-44b8f9eabec2")
+		(property "Reference" "C11"
+			(at 80.01 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 45.212 104.648 0)
+		(property "Value" "C"
+			(at 80.01 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 48.5648 101.6 0)
+		(property "Footprint" ""
+			(at 76.2 74.6252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 105.41 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,8 +5474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 49.53 105.41 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,15 +5484,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "822e7630-90dc-434f-a8fb-3edd9dabffc5")
+			(uuid "f1613dd5-a85b-44f4-9a92-2753bc992d0e")
 		)
 		(pin "1"
-			(uuid "2f366cc2-aab0-48b0-9dd1-7aec2f4a725e")
+			(uuid "d7b98aa1-84a3-4b74-abe1-e8e2883a3abe")
 		)
 		(instances
 			(project "Balanced Polarimeter"
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5931,74 +6069,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 80.01 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62ebfc2b-7df9-4445-930d-3c9f97ec6632")
-		(property "Reference" "C5"
-			(at 80.899 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 80.899 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 76.2 74.6252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 80.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "184c4c27-5b4f-4842-8b5c-a3961d2e6304")
-		)
-		(pin "1"
-			(uuid "2fd75848-9f95-46bd-b154-c01876054576")
-		)
-		(instances
-			(project "Balanced Polarimeter"
-				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 116.84 78.74 0)
 		(unit 1)
@@ -6137,6 +6207,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 142.24 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa16949-8fee-461d-96ea-a4777076dc3f")
+		(property "Reference" "C14"
+			(at 146.05 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 146.05 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.2052 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c25d0578-7e7c-40f6-9e9d-e58db84cc2e9")
+		)
+		(pin "1"
+			(uuid "5eef2aab-da07-405c-b4d9-9aa7b2bba4a0")
+		)
+		(instances
+			(project "Balanced Polarimeter"
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 21.59 31.75 0)
 		(unit 1)
@@ -6202,6 +6342,76 @@
 			(project ""
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e6e48e3-bc69-4c61-8e0a-1effc582ffb7")
+		(property "Reference" "C12"
+			(at 66.04 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 66.04 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.1952 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad35c78a-82b6-484d-9a1e-5916e80fd9fc")
+		)
+		(pin "1"
+			(uuid "448f7f7c-effd-4a21-bf5a-6f6d95ec5d8c")
+		)
+		(instances
+			(project "Balanced Polarimeter"
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6414,16 +6624,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 142.24 107.95 0)
+		(lib_id "Device:C")
+		(at 133.35 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8a845cd1-6524-462d-b49d-30f70f5d23ef")
-		(property "Reference" "C4"
-			(at 136.906 111.252 0)
+		(fields_autoplaced yes)
+		(uuid "8674ae47-e335-44de-9ebb-50a4aa0c5415")
+		(property "Reference" "C13"
+			(at 137.16 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,8 +6642,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 135.382 114.3 0)
+		(property "Value" "C"
+			(at 137.16 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,8 +6651,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 143.2052 111.76 0)
+		(property "Footprint" ""
+			(at 134.3152 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 107.95 0)
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,8 +6669,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 142.24 107.95 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,15 +6679,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ff60b289-2f5f-493e-9ca6-50e393559adc")
+			(uuid "0c875ca7-352c-4b9b-a0a7-bafa30264f81")
 		)
 		(pin "1"
-			(uuid "914104b0-a92e-4cb1-a12b-abb34be23f78")
+			(uuid "31f76563-90df-4aa2-9275-f29739f0217d")
 		)
 		(instances
 			(project "Balanced Polarimeter"
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
-					(reference "C4")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6545,74 +6756,6 @@
 			(project ""
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 64.77 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a047129a-7df3-4b0c-9b7a-f07af00a91d2")
-		(property "Reference" "C7"
-			(at 65.659 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 65.659 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 60.96 98.7552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 64.77 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "873051f3-f5e7-4b40-aecc-b5a9e1f99aba")
-		)
-		(pin "1"
-			(uuid "ff73d9d7-63c9-4039-af48-b1c658dcf657")
-		)
-		(instances
-			(project "Balanced Polarimeter"
-				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7153,75 +7296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 133.35 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d38f1e9a-343c-4933-8b40-38735de9a198")
-		(property "Reference" "C3"
-			(at 138.684 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 134.874 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 134.3152 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 133.35 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "488d7d85-e2df-4499-9f8e-6aa4dd0c8adb")
-		)
-		(pin "1"
-			(uuid "626284d7-9a07-4908-b660-16019b968621")
-		)
-		(instances
-			(project "Balanced Polarimeter"
-				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:ADA4898-1YRDZ")
 		(at 92.71 80.01 0)
 		(unit 1)
@@ -7363,76 +7437,6 @@
 			(project ""
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 62.23 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d827fb13-4837-449d-aeb9-25c0857c1b3c")
-		(property "Reference" "C6"
-			(at 66.04 82.1689 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 66.04 84.7089 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 61.2648 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 62.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b353f9db-af3c-49af-9d38-e912a0200a35")
-		)
-		(pin "1"
-			(uuid "a391b899-c7a6-44e9-9485-4e396b41ac44")
-		)
-		(instances
-			(project "Balanced Polarimeter"
-				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7643,6 +7647,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 43.18 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5687d04-919e-416b-8b3d-985c78cb6d37")
+		(property "Reference" "C9"
+			(at 46.99 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 46.99 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.1452 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76cfe61b-a5e2-464e-a29e-c1717e111234")
+		)
+		(pin "1"
+			(uuid "2eaa23d0-47e8-4e0b-857e-39676f5f1492")
+		)
+		(instances
+			(project ""
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 68.58 139.7 270)
 		(unit 1)
@@ -7705,6 +7779,74 @@
 			(project "Balanced Polarimeter"
 				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc6d58c8-f9ff-43c5-9ba2-a86a3be90487")
+		(property "Reference" "C10"
+			(at 64.77 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 64.77 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 98.7552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7323ac1c-499f-47b3-9108-12a847074c18")
+		)
+		(pin "1"
+			(uuid "9ab8f916-4e16-4705-b28f-460f22c0e0b5")
+		)
+		(instances
+			(project "Balanced Polarimeter"
+				(path "/39b6f1f8-5860-42a5-94c2-dd498265d0fe"
+					(reference "C10")
 					(unit 1)
 				)
 			)
