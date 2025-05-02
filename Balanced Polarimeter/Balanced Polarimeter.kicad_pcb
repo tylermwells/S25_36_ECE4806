@@ -108,7 +108,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -1714,6 +1713,7 @@
 		(property "Reference" "R8"
 			(at 5.08 -2.37 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1802e684-6802-40ea-be96-1d882ae95060")
 			(effects
 				(font
@@ -1725,6 +1725,7 @@
 		(property "Value" "20k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "69e559b0-723b-47f2-935b-3833e704011b")
 			(effects
 				(font
@@ -1924,17 +1925,6 @@
 			(layer "F.Fab")
 			(uuid "249bc087-d616-4b38-855c-bd713ef94da5")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "a997898d-2f61-46eb-8875-6acf38a27305")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -1977,6 +1967,7 @@
 		(property "Reference" "R3"
 			(at 5.08 -2.37 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a2613a0d-f9ec-4af5-a829-c210886b15f4")
 			(effects
 				(font
@@ -1988,6 +1979,7 @@
 		(property "Value" "20k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ca43ceb5-72c3-4d48-ad6b-e59c68307239")
 			(effects
 				(font
@@ -2187,17 +2179,6 @@
 			(layer "F.Fab")
 			(uuid "b1d80f14-1bd0-4b3c-aef9-3106e5c6118f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "a602fa42-515a-4779-bbb9-0b137ea0eb35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -2240,6 +2221,7 @@
 		(property "Reference" "R7"
 			(at 5.08 -2.37 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "30c2bec7-a912-4eda-85fb-0bca954adba2")
 			(effects
 				(font
@@ -2251,6 +2233,7 @@
 		(property "Value" "20k"
 			(at 5.08 2.37 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b20bbb21-ffe2-4c5d-8e4d-87bea3029a2d")
 			(effects
 				(font
@@ -2449,17 +2432,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "c57c6881-0f49-41c8-8402-323171696040")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 270)
-			(layer "F.Fab")
-			(uuid "8f9d530d-8675-42f3-aef9-36fe5b2ee4a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -2839,6 +2811,7 @@
 		(property "Reference" "R2"
 			(at 5.08 -2.37 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b5d0bcd0-142b-4b83-bbf3-843f5195a360")
 			(effects
 				(font
@@ -2850,6 +2823,7 @@
 		(property "Value" "20k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "98b7ca8e-7a73-4c3d-8295-5a967a8095b8")
 			(effects
 				(font
@@ -3049,17 +3023,6 @@
 			(layer "F.Fab")
 			(uuid "796ff132-8b2d-4e98-af45-c172994aa12b")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "d4501952-9f5e-451c-9266-461c06745a32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -3102,6 +3065,7 @@
 		(property "Reference" "R5"
 			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7ecdd7c8-bc33-4988-bd34-f9e603575934")
 			(effects
 				(font
@@ -3113,6 +3077,7 @@
 		(property "Value" "20k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "efc8be8f-b843-4cf4-91bf-3549681e92b0")
 			(effects
 				(font
@@ -3311,17 +3276,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "70c12678-8887-4532-8864-eb2805a07f97")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
-			(layer "F.Fab")
-			(uuid "fb7da33c-6db4-4280-aa18-c0d1b3dc52b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -6771,6 +6725,7 @@
 		(property "Reference" "R4"
 			(at 5.08 -2.37 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b41dc30d-c6f5-49d1-858c-4717462b416b")
 			(effects
 				(font
@@ -6782,6 +6737,7 @@
 		(property "Value" "20k"
 			(at 5.08 2.37 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2b65e506-1d3b-4456-ac3a-5b6a92631cff")
 			(effects
 				(font
@@ -6980,17 +6936,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "74e5bc83-9281-49f9-afd8-11edf2e94545")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 180)
-			(layer "F.Fab")
-			(uuid "b0bf1365-393a-4992-b3f1-b4c4b8e04803")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -7238,6 +7183,7 @@
 		(property "Reference" "R6"
 			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cb8ebdf3-2708-470a-abaa-c8ea5812ac19")
 			(effects
 				(font
@@ -7249,6 +7195,7 @@
 		(property "Value" "20k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5f584e4f-42a1-40d2-bb24-91f54cebc7a5")
 			(effects
 				(font
@@ -7447,17 +7394,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "1f57c1cc-e7a4-4f59-aff7-4fe9eca299d5")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
-			(layer "F.Fab")
-			(uuid "cc20b089-fa86-47fe-b170-6781bf413790")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -9637,6 +9573,7 @@
 		(property "Reference" "R1"
 			(at 5.0628 -0.0594 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7dc3753e-0460-4909-80bb-fdf20d6ccc45")
 			(effects
 				(font
@@ -9892,6 +9829,30 @@
 		(layer "Edge.Cuts")
 		(uuid "a60bb4ea-6b3f-47c8-bee7-aa9e9954bf6f")
 	)
+	(gr_text "Measurable Resistor"
+		(at 138 84 0)
+		(layer "F.SilkS")
+		(uuid "14cf7d55-f02b-45d2-85e3-af344d8aea0e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Gain Resistor (TIAMP)"
+		(at 151 91 0)
+		(layer "F.SilkS")
+		(uuid "1fa75a0c-af0e-45ef-8bd1-4ee6f78a0888")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "-"
 		(at 155.235 65 0)
 		(layer "F.SilkS")
@@ -9948,6 +9909,18 @@
 			)
 		)
 	)
+	(gr_text "Gain Resistor (TIAMP)"
+		(at 166 82.5 90)
+		(layer "F.SilkS")
+		(uuid "9fb3e632-433c-4d00-9c8e-7a51a5163b35")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+5V"
 		(at 157.7174 68.3514 90)
 		(layer "F.SilkS")
@@ -9968,6 +9941,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "Measurable Resistor"
+		(at 130 89 90)
+		(layer "F.SilkS")
+		(uuid "cb6acaf3-26c1-4396-9909-c6481828891b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "+"
@@ -10412,6 +10397,24 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "f38a6693-f0cf-47b7-b505-33eaee3a0c04")
+	)
+	(via
+		(at 147 73)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "f92e8527-0b81-490c-bfbf-dc08c62b42fd")
+	)
+	(via
+		(at 142.5 96.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "ff8ebfbf-8b75-4b20-8cc9-b210e7419adc")
 	)
 	(segment
 		(start 124.321 72.2228)
